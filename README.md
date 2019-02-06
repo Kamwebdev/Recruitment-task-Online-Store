@@ -33,6 +33,9 @@ Dla uproszczenia:
 - Po uruchomieniu przez panel admina dodajemy dwie grupy: Seller i Client
 
 ### Konfigurowanie codziennej wysyłki emaili:
--Jednorazowe uruchomienie tasku (w celach testowych) ```$ python manage.py cron```
--Dodanie tasków do contab ```$ python manage.py installtasks```
--Można sprawdzić crontab komendą ```$ crontab -l```
+- Jednorazowe uruchomienie tasku (w celach testowych)
+```$ python manage.py cron```
+- Dodanie tasków do contab 
+```$ python manage.py installtasks```
+- Można sprawdzić crontab komendą 
+```$ crontab -l```
