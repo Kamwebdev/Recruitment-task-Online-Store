@@ -1,7 +1,7 @@
 # Recruitment-task
  A task requiring the creation of basic structures for an online store.
 
-##Temat: Aplikacja służąca do składania zamówień oraz generowania faktur.
+## Temat: Aplikacja służąca do składania zamówień oraz generowania faktur.
 Wszystkie widoki (chyba, że jest napisane inaczej) muszą wymagać zalogowania. W aplikacji mają istnieć dwie role:
 -Klient
 -Sprzedawca
