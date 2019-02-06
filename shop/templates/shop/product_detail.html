@@ -1,0 +1,43 @@
+{% extends "shop/layout.html" %}
+{% block content %}
+
+<section class="module">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 mb-sm-40"><a class="gallery" href="{{ product.image.url }}"><img src="{{ product.image.url }}" alt="Single Product Image"></a>
+            </div>
+            <div class="col-sm-6">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h1 class="product-title font-alt">{{ object.title }}</h1>
+                  <p>{{ object.producent }}</p>
+                </div>
+              </div>
+              <div class="row mb-20">
+                <div class="col-sm-12">
+                  <div class="price font-alt"><span class="amount">{{ object.price }}zł</span></div>
+                </div>
+              </div>
+              <div class="row mb-20">
+                <div class="col-sm-12">
+                  <div class="description">
+                    <p>{{ object.description }}</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-20">
+                {% ifequal user.groups.all.0.name 'Client' %}
+                <form method="post" action="{% url 'product-buy' product.id %}">{% csrf_token %}
+                <div class="col-sm-4 mb-sm-20">
+                        <input class="form-control input-lg"  type="number" name="amount" value="1" required="" id="id_amount">
+                      </div>
+                    <div class="col-sm-8"><button class="btn btn-lg btn-block btn-round btn-b" type="submit">Add To Cart</button></div>
+                </form>
+                {% endifequal %}
+              </div>   
+            </div>
+          </div>
+         </div>
+         
+      </section>
+      {% endblock %}

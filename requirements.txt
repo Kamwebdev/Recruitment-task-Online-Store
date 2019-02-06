@@ -1,0 +1,6 @@
+django==1.11.17
+django-braces
+pillow
+django-forms-bootstrap
+django-kronos
+invoiceGenerator

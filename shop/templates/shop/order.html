@@ -1,0 +1,14 @@
+{% extends "shop/layout.html" %}
+{% load bootstrap_tags %}
+{% block content %}
+  <section class="module">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 col-sm-offset-3 mb-sm-40">
+            <h4 class="font-alt">Congratulations on your purchase</h4>
+            <hr class="divider-w mb-10">
+            Order summary: {{ price }}zł
+        </div>
+      </div>
+    </section>
+{% endblock %}

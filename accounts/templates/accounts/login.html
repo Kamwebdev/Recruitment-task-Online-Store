@@ -1,0 +1,18 @@
+{% extends "shop/layout.html" %}
+{% load bootstrap_tags %}
+{% block content %}
+  <section class="module">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 col-sm-offset-3 mb-sm-40">
+            <h4 class="font-alt">Login</h4>
+            <hr class="divider-w mb-10">
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button  class="btn btn-round btn-b" type="submit">Login</button>
+              </form>
+        </div>
+      </div>
+    </section>
+{% endblock %}
