@@ -6,22 +6,14 @@ Wszystkie widoki (chyba, że jest napisane inaczej) muszą wymagać zalogowania.
 -Klient
 -Sprzedawca
 Obowiązkowe funkcjonalności:
-1 Wyświetlanie listy wszystkich produktów: (Dostęp: wszyscy (bez logowania), Obsługa paginacji, Wyszukiwarka po nazwie i producencie)
-2 Wyświetlanie szczegółów wskazanego produktu
-- Dostęp: wszyscy (bez logowania)
-3 Dodawanie, modyfikowanie i usuwanie (z pytaniem o potwierdzenie) produktu:
-- Dostęp: sprzedawca
-4 Dodawanie produktu do koszyka i składanie zamówienia
-- Dostęp: klient
-- Po złożeniu zamówienia klient otrzymuje maila z potwierdzeniem (możesz użyć
-django.core.mail.backends.console.EmailBackend)
-5 Wyświetlanie listy wszystkich produktów:
-- Zdjęcie (miniaturka) przy każdej pozycji
-6 Po złożeniu zamówienia wysyłaj klientowi codzienne przypomnienia o płatności aż do
-momentu przekroczenia daty terminu płatności.
-7 Dodawanie produktu do koszyka i składanie zamówienia
-o Po złożeniu zamówienia klient otrzymuje maila z potwierdzeniem, w załączniku
-faktura pro forma w formacie PDF
+- Wyświetlanie listy wszystkich produktów: (Dostęp: wszyscy, Obsługa paginacji, Wyszukiwarka po nazwie i producencie)
+- Wyświetlanie szczegółów wskazanego produktu (Dostęp: wszyscy)
+- Dodawanie, modyfikowanie i usuwanie (z pytaniem o potwierdzenie) produktu (Dostęp: sprzedawca)
+- Dodawanie produktu do koszyka i składanie zamówienia (Dostęp: klient, Po złożeniu zamówienia klient otrzymuje maila z potwierdzeniem, możesz użyć django.core.mail.backends.console.EmailBackend)
+- Wyświetlanie listy wszystkich produktów (zdjęcie przy każdej pozycji)
+- Po złożeniu zamówienia wysyłaj klientowi codzienne przypomnienia o płatności aż do momentu przekroczenia daty terminu płatności.
+- Dodawanie produktu do koszyka i składanie zamówienia (Po złożeniu zamówienia klient otrzymuje maila z potwierdzeniem, w załączniku
+faktura pro forma w formacie PDF)
 
 Dla uproszczenia:
 - Do zarządzania użytkownikiem oraz jego adresem wykorzystaj panel administracyjny
