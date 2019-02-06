@@ -23,7 +23,8 @@ Dla uproszczenia:
 ### Instalacja :
 ```
 - python3 -m venv myvenv
-- linux source myvenv/bin/activate / windows myvenv\Scripts\activate.bat
+- [linux] source myvenv/bin/activate 
+- [windows] myvenv\Scripts\activate.bat
 - pip install -r requirements.txt
 - cd project/
 - python3 manage.py makemigrations
