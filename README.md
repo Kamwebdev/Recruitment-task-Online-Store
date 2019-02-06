@@ -1,5 +1,5 @@
 # Recruitment task (Online Store) 
- A task requiring the creation of basic structures for an online store.
+Recruitment task which required the creation of basic structures for the online store.
 
 ## [PL] Temat: Aplikacja służąca do składania zamówień oraz generowania faktur. 
 Wszystkie widoki (chyba, że jest napisane inaczej) muszą wymagać zalogowania. W aplikacji mają istnieć dwie role:
