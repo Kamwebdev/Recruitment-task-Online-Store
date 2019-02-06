@@ -6,10 +6,7 @@ Wszystkie widoki (chyba, że jest napisane inaczej) muszą wymagać zalogowania.
 -Klient
 -Sprzedawca
 Obowiązkowe funkcjonalności:
-1 Wyświetlanie listy wszystkich produktów:
-- Dostęp: wszyscy (bez logowania)
-- Obsługa paginacji
-- Wyszukiwarka po nazwie i producencie
+1 Wyświetlanie listy wszystkich produktów: (Dostęp: wszyscy (bez logowania), Obsługa paginacji, Wyszukiwarka po nazwie i producencie)
 2 Wyświetlanie szczegółów wskazanego produktu
 - Dostęp: wszyscy (bez logowania)
 3 Dodawanie, modyfikowanie i usuwanie (z pytaniem o potwierdzenie) produktu:
