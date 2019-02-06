@@ -26,7 +26,6 @@ Dla uproszczenia:
 - [linux] source myvenv/bin/activate 
 - [windows] myvenv\Scripts\activate.bat
 - pip install -r requirements.txt
-- cd project/
 - python3 manage.py makemigrations
 - python3 manage.py migrate
 - python3 manage.py runserver
