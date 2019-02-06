@@ -20,7 +20,7 @@ Dla uproszczenia:
 - Do zarządzania użytkownikiem oraz jego adresem wykorzystaj panel administracyjny Django,
 - Adres sprzedawcy potrzebny do faktury pro forma możesz umieścić w pliku konfiguracyjnym
 
-Instalacja :
+### Instalacja :
 ```
 - python3 -m venv myvenv
 - linux source myvenv/bin/activate / windows myvenv\Scripts\activate.bat
@@ -32,10 +32,7 @@ Instalacja :
 ```
 - Po uruchomieniu przez panel admina dodajemy dwie grupy: Seller i Client
 
-Konfigurowanie codziennej wysyłki emaili:
--Jednorazowe uruchomienie tasku (w celach testowych)
-```$ python manage.py cron```
--Dodanie tasków do contab
-```$ python manage.py installtasks```
--Można sprawdzić crontab komendą
-```$ crontab -l```
+### Konfigurowanie codziennej wysyłki emaili:
+-Jednorazowe uruchomienie tasku (w celach testowych) ```$ python manage.py cron```
+-Dodanie tasków do contab ```$ python manage.py installtasks```
+-Można sprawdzić crontab komendą ```$ crontab -l```
