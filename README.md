@@ -1,4 +1,4 @@
-# Recruitment-task
+# Recruitment-task [PL]
  A task requiring the creation of basic structures for an online store.
 
 ## Temat: Aplikacja służąca do składania zamówień oraz generowania faktur.
