@@ -1,6 +1,5 @@
 # Recruitment task (Online Store) 
 Recruitment task which required the creation of basic structures for the online store. 
-
 Link to <a href="http://devserv.cf">demo</a>
 
 User accounts:
