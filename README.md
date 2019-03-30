@@ -2,12 +2,8 @@
 Recruitment task which required the creation of basic structures for the online store. 
 Link to <a href="http://devserv.cf">demo</a>
 User accounts:
-  client:
-    username: klient
-    pass: haslo123A
-  seller:
-    username: sprzedawca
-    pass: haslo123A
+client username: klient     pass: haslo123A
+seller username: sprzedawca pass: haslo123A
 
 ## [PL] Temat: Aplikacja służąca do składania zamówień oraz generowania faktur. 
 Wszystkie widoki (chyba, że jest napisane inaczej) muszą wymagać zalogowania. W aplikacji mają istnieć dwie role:
